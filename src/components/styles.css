@@ -1,0 +1,50 @@
+
+  .Nav {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: left;
+  align-items: center; 
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+  margin-bottom: 10px
+  }
+  .NavItem.active {
+    color: rgb(185, 70, 35); 
+  }
+  .NavItem {
+    text-decoration:none;
+margin: 0px 10px;
+color: black;
+font-weight: 600
+
+  }
+  .InputContainer {
+      margin: 15px;
+      height: 15px;
+  }
+
+  .Input {
+    align-items: center;
+    border-color: rgb(233, 231, 231);
+    height: 20px;
+    width: 260px;
+  }
+  .Input:focus {
+    outline: none;
+    border-color: rgb(89, 156, 219);
+   
+  }
+  .Button {
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    border-color: rgb(233, 231, 231);
+    cursor: pointer;
+   
+  }
+  .Container {
+    border-bottom: solid 2px rgb(219, 209, 209);
+  }

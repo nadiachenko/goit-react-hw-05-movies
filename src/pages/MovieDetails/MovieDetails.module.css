@@ -1,0 +1,36 @@
+.BackLink {
+cursor: pointer;
+text-decoration:none;
+margin: 0px 30px;
+padding: 0px 6px;
+border: solid 2px rgb(219, 209, 209);
+background-color: rgb(250, 248, 245);
+color: black;
+font-weight: 600;
+}
+
+.Content {
+display:flex;
+flex-direction: row;
+border-bottom: solid 2px rgb(219, 209, 209);
+}
+  
+.Container {
+border-top: solid 2px rgb(219, 209, 209);
+}
+
+img {
+margin: 15px;
+}
+
+.Genres {  
+display:flex;
+flex-direction: row;
+padding: 0px;
+text-decoration:none;
+list-style-type: none;
+}
+
+.Genre {
+ margin-right:10px;
+}
