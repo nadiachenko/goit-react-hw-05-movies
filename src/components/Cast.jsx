@@ -1,4 +1,4 @@
-import { NavLink, Route, Routes } from "react-router-dom";
+
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import img from "../movie.jpg"
@@ -20,7 +20,7 @@ const Cast = () => {
     }
     console.log(cast);
     fetchMovie();
-  }, [id])
+  }, [id, cast])
 
   return (<div>
     <ul>

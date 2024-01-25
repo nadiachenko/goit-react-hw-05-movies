@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { lazy, Suspense } from "react";
+import { Suspense } from "react";
 import { Link, useLocation, Outlet } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import img from "../../movie.jpg"
