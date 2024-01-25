@@ -16,7 +16,7 @@ const Movies = () => {
             console.log(error.message);
         }
     };
-
+    console.log('test');
     useEffect(() => {
         fetchMovies();
     }, []);
