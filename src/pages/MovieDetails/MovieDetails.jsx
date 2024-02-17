@@ -36,9 +36,9 @@ const MovieDetails = () => {
           <p>{movie.overview} </p>
           <h2>Genres</h2>
           <ul className={css.Genres}>
-            {movie.genres && movie.genres.map((genre) => (
+            {movie.genres && movie.genres.length !== 0 ? movie.genres.map((genre) => (
               <li className={css.Genre} key={genre.id}>{genre.name}</li>
-            ))}
+            )) : <p> We don't have genres for this movie</p>}
           </ul>
         </div>
       </div>
